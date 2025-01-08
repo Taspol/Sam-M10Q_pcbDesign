@@ -4125,7 +4125,7 @@
 		(descr "Through hole straight pin header, 1x06, 1.00mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 1.00mm single row")
 		(property "Reference" "J2"
-			(at 0 1.56 360)
+			(at 0 1.56 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "1ca4d61a-1b99-4af0-ac8c-2d0d30850ad4")
@@ -4138,7 +4138,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -6.56 360)
+			(at 0 -6.56 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5573984b-c9e7-499c-a938-cec8410f5705")
@@ -5040,6 +5040,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "CUHAR"
+		(at 166 60.5 0)
+		(layer "F.SilkS")
+		(uuid "79673fca-9abc-4ee5-9fa8-769df959127e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "3v3"
 		(at 166.81 65.53 0)
 		(layer "F.SilkS")
@@ -5131,7 +5143,8 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
